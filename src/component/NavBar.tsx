@@ -8,7 +8,6 @@ const NavBar: React.FC = () => {
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', theme === 'dark');
-    console.log("Current theme in NavBar:", theme); // Debugging log
   }, [theme]);
   
 
