@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Define a font family with fallback
+        'comic': ['"Comic Sans MS"', '"Comic Neue"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }

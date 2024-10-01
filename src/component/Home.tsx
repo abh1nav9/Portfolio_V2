@@ -1,15 +1,14 @@
 
 import NavBar from './NavBar'
+import Container from './Container'
 
 function Home() {
   return (
     <>
-    <NavBar />
-    <div>
-      <h1 className='text-white dark:text-black'>Hello</h1>
-    </div>
-    </>
-  )
+      <NavBar />
+      <div className="p-10">
+      </div>
+    </>)
 }
 
 export default Home
